@@ -5,5 +5,5 @@ List of the folder:
 3) 20,000 synthetic gold queries/patient case descriptions
 4) One relevant trial for each synthetic gold query/patient case descriptions
 5) Top 100 trials using BM25 for each 2021 query [1,75] and synthetic query [75,20000]
-6) Sanitised LLM responses for synthetic triplet (query, pos_trial, neg_trial)
-7) Encoded responses .csv file from LLM sanitised responses for the synthetic triplet pair for training the NEUREQ model
+6) Sanitised LLM responses for the 1,196 synthetic triplets (query, pos_trial, neg_trial) .jsonl file
+7) Encoded responses .csv file (YES=1, NO=0, NA=0.5) from LLM sanitised responses for the synthetic triplet pair for training the NEUREQ model
