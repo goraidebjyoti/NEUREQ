@@ -12,7 +12,7 @@ from tqdm import tqdm
 import sys
 
 # ====================== CONFIG ======================
-CSV_PATH = "data/train/neureq_training_data_1196.csv"
+CSV_PATH = "data/train/neureq_syn_training_data_1196.csv"
 MODEL_DIR = "models_new/LSTM_1196"
 os.makedirs(MODEL_DIR, exist_ok=True)
 
