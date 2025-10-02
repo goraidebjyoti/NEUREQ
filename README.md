@@ -1,2 +1,2 @@
 # NEUREQ
-NEUREQ: Clinical Trial Reranker
+NEUREQ: 2nd stage Clinical Trial Reranker
