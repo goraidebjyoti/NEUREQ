@@ -20,7 +20,7 @@ The foundation of this dataset relies on resources provided by the broader clini
 
 ---
 
-## The Contribution: Why Do We Need Hard Negatives?
+## The Contribution: Why Hard Negatives are required?
 
 In standard Information Retrieval (IR) tasks, a model is trained using positive matches and randomly sampled "easy" negatives. However, clinical trial matching is highly complex. An "easy negative" might be a breast cancer trial for a patient with prostate cancer—a model can easily learn to discard this based on a lack of overlapping vocabulary.
 
