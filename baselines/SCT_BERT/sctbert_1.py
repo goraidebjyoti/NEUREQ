@@ -50,7 +50,7 @@ def extract_field(text, field_names):
     end = stop_match.start() if stop_match else len(rest)
     block = rest[:end].strip()
 
-    # 🚫 Cleanup: If the extraction inadvertently grabbed a stray header line, remove it.
+    # Cleanup: If the extraction inadvertently grabbed a stray header line, remove it.
     lines = block.splitlines()
     if lines and any(h.lower() in lines[0].lower() for h in field_names):
         lines = lines[1:]

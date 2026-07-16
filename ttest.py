@@ -54,7 +54,7 @@ DISPLAY_NAMES = {
 
 # File paths
 QRELS_FILE = f"data/{YEAR}/ct_{YEAR}_qrels_mapped.txt" # Ground truth relevance judgments
-RUNS_DIR = f"runs5/{YEAR}" # Directory containing the .txt run files for all models
+RUNS_DIR = f"runs/{YEAR}" # Directory containing the .txt run files for all models
 OUTPUT_DIR = "t_test_results"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
